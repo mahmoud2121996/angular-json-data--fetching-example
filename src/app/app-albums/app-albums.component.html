@@ -1,0 +1,15 @@
+<h1>{{errorMsg}}</h1>
+
+<div class="container">
+    <div *ngFor="let album of albums" class="usercard">
+        <div class="carditem">
+            userid  : {{album.userid}}
+        </div>
+        <div class="carditem">
+            id  : {{album.id}}
+        </div>
+        <div class="carditem">
+            title  : {{album.title}}
+        </div>
+    </div>
+</div>

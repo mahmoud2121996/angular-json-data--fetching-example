@@ -1,0 +1,21 @@
+<h1>{{errorMsg}}</h1>
+<!-- <ul>
+    <li *ngFor="let user of users">{{user.email}}</li>
+</ul> -->
+
+<div class="container">
+    <div *ngFor="let user of users" class="usercard">
+        <div class="carditem">
+            id  : {{user.id}}
+        </div>
+        <div class="carditem">
+            name  : {{user.name}}
+        </div>
+        <div class="carditem">
+            username  : {{user.username}}
+        </div>
+        <div class="carditem">
+            email  : {{user.email}}
+        </div>
+    </div>
+</div>
